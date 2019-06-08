@@ -134,73 +134,37 @@ namespace RajShoeApp.Controllers
                 }
                 if (query.opr2 == "gt" || query.opr2 == "lt" || query.opr2 == "gte" || query.opr2 == "lte" || query.opr2 == "ne")
                 {
-
-                    if (query.filterColumn1 == "Price")
-                    {
-                        if (query.opr2 == "lt")
+                     if (query.opr2 == "lt")
                         {
-                            var newQuery = from p in tempResult.Where(a => a.Price < query.numValue1)
+                            var newQuery = from p in tempResult.Where(a => a[query.filterColumn1] < query.numValue1)
                                            select p;
+                            
                             finalResult = newQuery;
                         }
                         else if (query.opr2 == "gt")
                         {
-                            var newQuery = from p in tempResult.Where(a => a.Price > query.numValue1)
+                            var newQuery = from p in tempResult.Where(a => a[query.filterColumn1] > query.numValue1)
                                            select p;
                             finalResult = newQuery;
                         }
                         else if (query.opr2 == "gte")
                         {
-                            var newQuery = from p in tempResult.Where(a => a.Price >= query.numValue1)
+                            var newQuery = from p in tempResult.Where(a => a[query.filterColumn1] >= query.numValue1)
                                            select p;
                             finalResult = newQuery;
                         }
                         else if (query.opr2 == "lte")
                         {
-                            var newQuery = from p in tempResult.Where(a => a.Price <= query.numValue1)
+                            var newQuery = from p in tempResult.Where(a => a[query.filterColumn1] <= query.numValue1)
                                            select p;
                             finalResult = newQuery;
                         }
                         else if (query.opr2 == "ne")
                         {
-                            var newQuery = from p in tempResult.Where(a => a.Price != query.numValue1)
+                            var newQuery = from p in tempResult.Where(a => a[query.filterColumn1] != query.numValue1)
                                            select p;
                             finalResult = newQuery;
-                        }
-                    }
-                    if (query.filterColumn1 == "Weight")
-                    {
-                        if (query.opr2 == "lt")
-                        {
-                            var newQuery = from p in tempResult.Where(a => a.Weight < query.numValue1)
-                                           select p;
-                            finalResult = newQuery;
-                        }
-                        else if (query.opr2 == "gt")
-                        {
-                            var newQuery = from p in tempResult.Where(a => a.Weight > query.numValue1)
-                                           select p;
-                            finalResult = newQuery;
-                        }
-                        else if (query.opr2 == "gte")
-                        {
-                            var newQuery = from p in tempResult.Where(a => a.Weight >= query.numValue1)
-                                           select p;
-                            finalResult = newQuery;
-                        }
-                        else if (query.opr2 == "lte")
-                        {
-                            var newQuery = from p in tempResult.Where(a => a.Weight <= query.numValue1)
-                                           select p;
-                            finalResult = newQuery;
-                        }
-                        else if (query.opr2 == "ne")
-                        {
-                            var newQuery = from p in tempResult.Where(a => a.Weight != query.numValue1)
-                                           select p;
-                            finalResult = newQuery;
-                        }
-                    }
+                        }                   
                 }
             }
             else
