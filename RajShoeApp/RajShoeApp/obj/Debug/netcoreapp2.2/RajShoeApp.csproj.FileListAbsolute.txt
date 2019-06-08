@@ -1,0 +1,14 @@
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\bin\Debug\netcoreapp2.2\RajShoeApp.deps.json
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\bin\Debug\netcoreapp2.2\RajShoeApp.runtimeconfig.json
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\bin\Debug\netcoreapp2.2\RajShoeApp.runtimeconfig.dev.json
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\bin\Debug\netcoreapp2.2\RajShoeApp.dll
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\bin\Debug\netcoreapp2.2\RajShoeApp.pdb
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\obj\Debug\netcoreapp2.2\RajShoeApp.csproj.CoreCompileInputs.cache
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\obj\Debug\netcoreapp2.2\RajShoeApp.RazorAssemblyInfo.cache
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\obj\Debug\netcoreapp2.2\RajShoeApp.RazorAssemblyInfo.cs
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\obj\Debug\netcoreapp2.2\RajShoeApp.AssemblyInfoInputs.cache
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\obj\Debug\netcoreapp2.2\RajShoeApp.AssemblyInfo.cs
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\obj\Debug\netcoreapp2.2\RajShoeApp.RazorTargetAssemblyInfo.cache
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\obj\Debug\netcoreapp2.2\RajShoeApp.dll
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\obj\Debug\netcoreapp2.2\RajShoeApp.pdb
+C:\Users\Noesys\source\repos\RajShoeApp\RajShoeApp\obj\Debug\netcoreapp2.2\RajShoeApp.csprojAssemblyReference.cache
