@@ -15,7 +15,7 @@ namespace RajShoeApp.Model
         //    sortColumn1 = "Id";
         //    sortDirection = "asc";
         //}   
-        
+        [Required]
         public int skip { get; set; }
         [Required]
         public int take { get; set; }
@@ -36,5 +36,3 @@ namespace RajShoeApp.Model
         
     }
 }
-//[FromQuery]int skip, [FromQuery]int take,[FromQuery]string sortColumn1,[FromQuery]string sortDirection,//
-//[FromQuery] string filterColumn,[FromQuery]string opr,[FromQuery]string filterValue,[FromQuery]int numFilter
