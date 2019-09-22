@@ -2,7 +2,7 @@
 This is a demo of a simple crud application is implemented on a large database of over 1000 entries. 
 I have used Visual Studio 2019.
 
-This API uses LHS Square Bracket operator in request like [lt],[gt],etc
+This API can also be used for LHS Square Bracket operation in request like [lt],[gt],etc
 
 The database consists of 8 columns, which are:
 1.ID
