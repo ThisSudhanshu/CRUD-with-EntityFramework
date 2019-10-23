@@ -1,4 +1,4 @@
-# CRUD-with-EntityFrameWork
+# Simple CRUD API using C# and SQLITE.
 This is a demo of a simple crud application is implemented on a large database of over 1000 entries. 
 I have used Visual Studio 2019.
 
@@ -17,4 +17,5 @@ The database consists of 8 columns, which are:
 
 
 An example for request is -
+
 api/products?skip=0&take=20&sortColumn=Weight&sortDirection=asc&sortColumn1=Weight&Colour[like]=mar&Weight[gt]=500
